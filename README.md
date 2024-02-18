@@ -1,70 +1,29 @@
-# Getting Started with Create React App
+1. **Интеграция API Marvel**: Разработал сервис `useMarvelService`, который позволяет взаимодействовать с API Marvel для получения информации о персонажах и комиксах.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+2. **Управление состоянием**: Использовал хуки React `useState` и `useEffect` для управления состоянием компонентов и жизненным циклом, обеспечивая динамическую загрузку и обновление данных.
 
-## Available Scripts
+3. **Формы и валидация**: Реализовал форму поиска персонажей с использованием библиотеки `formik` и `yup` для валидации ввода, улучшая пользовательский опыт.
 
-In the project directory, you can run:
+4. **Анимации и переходы**: Внедрил библиотеку `react-transition-group` для создания анимаций и переходов при загрузке новых элементов списка, улучшая визуальное восприятие.
 
-### `yarn start`
+5. **Навигация**: Использовал компонент `Link` из `react-router-dom` для навигации по приложению, обеспечивая плавный переход между страницами.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+6. **Обработка ошибок**: Реализовал систему обработки ошибок, отображая сообщения об ошибках при неудачных запросах к API, улучшая надежность приложения.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+7. **Интерфейс пользователя**: Создал пользовательский интерфейс, включающий списки персонажей и комиксов, форму поиска и информацию о персонажах, стилизованный с помощью SCSS.
 
-### `yarn test`
+8. **Автоматическое обновление**: Реализовал функциональность для автоматического обновления списка персонажей и отображения случайного персонажа каждые   60 секунд, улучшая пользовательский опыт.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+9. **Пагинация**: Внедрил пагинацию для списка персонажей и комиксов, позволяя пользователям загружать больше элементов по мере прокрутки, улучшая производительность.
 
-### `yarn build`
+10. **Управление фокусом**: Реализовал функцию для управления фокусом на элементах списка, улучшая доступность и удобство использования для пользователей с клавиатурой.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+11. **Статические ресурсы**: Включил статический ресурс (изображение Мьёльнира) в приложение, используя его для декоративных целей.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+12. **Тестирование**: Провел тестирование компонентов для обеспечения корректной работы и качества кода, улучшая надежность приложения.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+13. **Документация**: Использовал `PropTypes` для документирования ожидаемых пропсов в компонентах, облегчая работу других разработчиков.
 
-### `yarn eject`
+14. **Структура проекта**: Организовал код в модули и использовал структуру каталогов, обеспечивая чистоту и поддерживаемость кода.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+15. **Оптимизация производительности**: Применил `useMemo` и `useCallback` для оптимизации производительности, предотвращая ненужные рендеры и улучшая производительность приложения.
